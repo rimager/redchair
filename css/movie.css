@@ -1,3 +1,77 @@
 @charset "UTF-8";
 /* CSS Document */
 
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+#pic{
+  width:100%;
+  float:left;
+  margin-top:5px;
+}
+p{
+  margin-top:1px;
+}
+#first:first-letter {
+    float: left;
+    font-size: 45px;
+    line-height: 1;
+    font-weight: bold;
+    margin-right: 9px;
+  color:red;
+}
+.meta a {
+  text-transform:uppercase;
+  text-decoration:none;
+  color: black;
+}
+.meta li{
+  display:inline;
+}
+.meta li:after{
+  content:'\\';
+  padding: 0px 5px;
+}
+.meta li:last-child:after {
+   content: none;
+}
+meta{
+  padding-left:0; 
+  margin: 0 0 8px;
+
+}
+article{
+  width: 68%;
+  float:left;
+  margin-left:10px;
+
+}
+aside{
+width: 30%;
+float:left;
+overflow:hidden;
+}
+#sect{
+  overflow:hidden;
+  background-color:lightgrey;
+  overflow:hidden;
+  padding:10px;
+  margin-top:10px;
+}
+ul{
+   float:left;
+  padding:0;
+}
+a{
+   float:left;
+}

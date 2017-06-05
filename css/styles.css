@@ -9,14 +9,15 @@ body {
 }
 .wrap {
 	width: 100%;
-	height: 150px;
 	background-color: #000000;
 	padding-bottom: 5px;
 	margin-top: 20px;
+	overflow: hidden;
 }
 .navigation{
 	width: 60%;
 	margin-left: 10px;
+	float: left;
 	
 }
 .top {
@@ -49,11 +50,9 @@ body {
 	float:right;
 	background: #D70B0E;
 	border: 1px solid white;
-	margin-top: -54px;
-	margin-left: 68%;
-	position: absolute;
 	padding-top: 10px;
 	padding-bottom: 20px;
+	margin:10px;
 }
 #letters {
 	margin-left: 8px;

@@ -22,6 +22,12 @@
 p{
   margin-top:1px;
 }
+.text{
+	color:black;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-weight: 100;
+}
+		
 #first:first-letter {
     float: left;
     font-size: 45px;

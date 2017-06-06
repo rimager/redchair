@@ -258,11 +258,13 @@ header button{
 }
 
 
-.Atservice{ position:absolute;
-    top:100px;
-    left: 50px;}
+.Atservice{ 
+    float:left;
+	list-style:none;
+    margin:5px;
+	padding:10px}
 
-.nuncaolvidados{ position:absolute;
+/*.nuncaolvidados{ position:absolute;
     top:100px;
     left: 270px;}
 
@@ -304,24 +306,9 @@ header button{
 	top:60px;
 	left:50px;
 	color:red;
-	
+	*/
 	
 }
-/*.Atservice 
-.nuncaolvidados
-.fugue
-.lovestuck
-.tainted
-.golden
-.partition
-.apostacy
-.augustus
-.oliver
-.ditched
-.charlie
-.family{ 
-display:inline;
-}*/
 
 =======
 .container{

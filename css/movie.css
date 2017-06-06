@@ -48,15 +48,9 @@ p{
   color: black;
   display:inline-block;
 }
-<<<<<<< HEAD
 #meta li::after{
-  content: "/";
-=======
-.meta li:after{
-  content:"\\";
->>>>>>> 9e5fe2e6d6e62919910b66a44cc15195143f8802
-  padding: 0px 5px;
-}
+	content: "/";}
+
 #meta li:last-child::after {
    content: none;
 }

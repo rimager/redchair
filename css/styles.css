@@ -7,13 +7,7 @@ body {
 	font-size: 14px;
 	font-family: 'Open Sans Condensed', sans-serif;
 }
-#homie{ 
 
-position: absolute;
-	top:60px;
-	left:50px;
-	color:red;
-}
 	
 .wrap {
 	width: 100%;

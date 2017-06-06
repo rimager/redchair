@@ -54,17 +54,8 @@ margin-left: 5px;
   display:inline-block;
 }
 #meta li::after{
-<<<<<<< HEAD
-  content: "/";
-=======
-.meta li::after{
-  content:"\\";
-  padding: 0px 5px;
-}
-=======
 	content: "/";}
 
->>>>>>> 4f0f441842889717e278b2fbd4c36fb4aa3de888
 #meta li:last-child::after {
    content: none;
 }
@@ -97,4 +88,8 @@ ul{
 }
 a{
    float:left;
+}
+.container{
+	width: 80%;
+	margin: 0 auto;
 }

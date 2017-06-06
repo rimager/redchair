@@ -7,12 +7,22 @@ body {
 	font-size: 14px;
 	font-family: 'Open Sans Condensed', sans-serif;
 }
+#homie{ 
+
+position: absolute;
+	top:60px;
+	left:50px;
+	color:red;
+}
+	
 .wrap {
 	width: 100%;
 	background-color: #000000;
 	padding-bottom: 5px;
 	margin-top: 20px;
 	overflow: hidden;
+	position: absolute;
+	top:900px;
 }
 .navigation{
 	width: 60%;
@@ -140,4 +150,68 @@ header button{
 }
 
 
+.Atservice{ position:absolute;
+    top:100px;
+    left: 50px;}
+
+.nuncaolvidados{ position:absolute;
+    top:100px;
+    left: 270px;}
+
+.fugue{ position:absolute;
+    top:100px;
+    left: 490px;}
+.lovestuck{ position:absolute;
+    top:100px;
+    left: 710px;}
+.tainted{ position:absolute;
+    top:100px;
+    left: 1150px;}
+.golden{ position:absolute;
+    top:350px;
+    left: 50px;}
+.partition{ position:absolute;
+    top:350px;
+    left: 270px;}
+.apostacy{ position:absolute;
+    top:350px;
+    left: 490px;}
+.augustus{ position:absolute;
+    top:350px;
+    left: 710px;}
+.oliver{ position:absolute;
+    top:350px;
+    left: 1150px;}
+.ditched{ position:absolute;
+    top:600px;
+    left: 50px;}
+.charlie{ position:absolute;
+    top:350px;
+    left: 930px;}
+.family{ position:absolute;
+    top:100px;
+    left: 930px;}
+.sugestion{
+	position: absolute;
+	top:60px;
+	left:50px;
+	color:red;
+	
+	
+}
+/*.Atservice 
+.nuncaolvidados
+.fugue
+.lovestuck
+.tainted
+.golden
+.partition
+.apostacy
+.augustus
+.oliver
+.ditched
+.charlie
+.family{ 
+display:inline;
+}*/
 

@@ -6,6 +6,8 @@
 	padding-bottom: 56.25%;
 	padding-top: 25px;
 	height: 0;
+	margin:6px;
+	margin-right: 8px;
 }
 .videoWrapper iframe {
 	position: absolute;
@@ -17,15 +19,17 @@
 #pic{
   width:100%;
   float:left;
-  margin-top:5px;
+ margin:3px;
 }
 p{
-  margin-top:1px;
+  margin-top:-4px;
+margin-left: 5px;
+	margin-right: -10px;
+	
 }
 .text{
 	color:black;
-	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
-	font-weight: 100;
+	font-family: 'Open Sans Condensed', sans-serif;
 }
 		
 #first:first-letter {
@@ -36,23 +40,36 @@ p{
     margin-right: 9px;
   color:red;
 }
-.meta a {
+#cajita {
+  float:left;
+	clear:both;
+}
+#meta a {
   text-transform:uppercase;
   text-decoration:none;
   color: black;
 }
-.meta li{
-  display:inline;
+#meta li{
+  color: black;
+  display:inline-block;
 }
-.meta li:after{
-  content:'\\';
+#meta li::after{
+<<<<<<< HEAD
+  content: "/";
+=======
+.meta li::after{
+  content:"\\";
   padding: 0px 5px;
 }
-.meta li:last-child:after {
+=======
+	content: "/";}
+
+>>>>>>> 4f0f441842889717e278b2fbd4c36fb4aa3de888
+#meta li:last-child::after {
    content: none;
 }
-meta{
-  padding-left:0; 
+#meta{
+  padding-left:0;  
   margin: 0 0 8px;
 
 }
@@ -69,10 +86,10 @@ overflow:hidden;
 }
 #sect{
   overflow:hidden;
-  background-color:lightgrey;
-  overflow:hidden;
+  background-color:#d4d4d4;
   padding:10px;
-  margin-top:10px;
+ margin: 9px 6px -14px 6px;
+	
 }
 ul{
    float:left;

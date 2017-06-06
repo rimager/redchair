@@ -255,11 +255,13 @@ header button{
 }
 
 
-.Atservice{ position:absolute;
-    top:100px;
-    left: 50px;}
+.Atservice{ 
+    float:left;
+	list-style:none;
+    margin:5px;
+	padding:10px}
 
-.nuncaolvidados{ position:absolute;
+/*.nuncaolvidados{ position:absolute;
     top:100px;
     left: 270px;}
 
@@ -301,11 +303,15 @@ header button{
 	top:60px;
 	left:50px;
 	color:red;
-	
+	*/
 	
 }
 
+<<<<<<< HEAD
+=======
+=======
 
+>>>>>>> fa68e760ba9a7cc9f46746bfe5fddb9aa23591a9
 .container{
 	width: 80%;
 	margin: 0 auto;

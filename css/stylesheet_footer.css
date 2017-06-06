@@ -6,6 +6,8 @@ footer {
 	color: white;
 	font-size: 14px;
 	font-family: 'Open Sans Condensed', sans-serif;
+	position: relative;
+	bottom: 100px;
 }
 footer .wrap {
 	width: 100%;
@@ -35,12 +37,16 @@ footer .middle {
 	margin-right: 25px;
 	color: #B7B1B1;
 }
-footer .copyright {
-	margin-top: -15px;
+
+footer #copyright {
+	/*margin-top: -15px;*/
 	font-weight: 100;
 	color:#000000;
 	text-align: center;
 	font-family: 'Open Sans Condensed', sans-serif;
+	position: absolute;
+	bottom: 0;
+	
 }
  footer .search {
 	width: 30%;
@@ -49,11 +55,11 @@ footer .copyright {
 	float:right;
 	background: red;
 	border: 1px solid white;
-	margin-top: -54px;
+	margin-top: -100px;
 	margin-left: 68%;
-	position: absolute;
+	/*position: absolute;*/
 	padding-top: 10px;
-	padding-bottom: 20px;
+	padding-bottom: 60px;
 }
 #letters {
 	margin-left: 8px;

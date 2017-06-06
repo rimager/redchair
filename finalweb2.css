@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/* CSS Document */
+
+li{display:inline;
+	padding: 90px;
+	color:white;
+
+
+}
+.bar{background-color:black; 
+margin: auto;
+	padding: 10px;
+}
+body{ margin: 0;
+background-image:url("../../Desktop/Final 5/100.jpg");
+	background-size: cover;
+}
+.subt{
+	position: absolute;
+	top: 400px;
+	left: 300px;
+	font-family:allura;
+font-style: normal;
+font-weight: 300;
+	font-size: 70px;
+	color:white;
+}
+footer{
+	color:white;
+	background-color: black;
+	position: absolute;
+	top:700px;
+	left:600px;
+	margin: 0;
+	padding-left: 100px;
+padding-right: 100px;
+}
+a{ text-decoration: none;}
+a:hover{background-color: red;}

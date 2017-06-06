@@ -6,6 +6,7 @@
 	padding-bottom: 56.25%;
 	padding-top: 25px;
 	height: 0;
+	margin:5px;
 }
 .videoWrapper iframe {
 	position: absolute;
@@ -24,8 +25,7 @@ p{
 }
 .text{
 	color:black;
-	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
-	font-weight: 100;
+	font-family: 'Open Sans Condensed', sans-serif;
 }
 		
 #first:first-letter {
@@ -48,8 +48,13 @@ p{
   color: black;
   display:inline-block;
 }
+<<<<<<< HEAD
 #meta li::after{
   content: "/";
+=======
+.meta li:after{
+  content:"\\";
+>>>>>>> 9e5fe2e6d6e62919910b66a44cc15195143f8802
   padding: 0px 5px;
 }
 #meta li:last-child::after {
@@ -73,10 +78,11 @@ overflow:hidden;
 }
 #sect{
   overflow:hidden;
-  background-color:lightgrey;
+  background-color:#d4d4d4;
   overflow:hidden;
   padding:10px;
   margin-top:10px;
+ margin: 8px 5px 0px 5px;
 }
 ul{
    float:left;

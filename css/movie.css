@@ -36,22 +36,26 @@ p{
     margin-right: 9px;
   color:red;
 }
-.meta a {
+#cajita {
+  float: right;
+}
+#meta a {
   text-transform:uppercase;
   text-decoration:none;
   color: black;
 }
-.meta li{
-  display:inline;
+#meta li{
+  color: black;
+  display:inline-block;
 }
-.meta li:after{
-  content:'\\';
+#meta li::after{
+  content: "/";
   padding: 0px 5px;
 }
-.meta li:last-child:after {
+#meta li:last-child::after {
    content: none;
 }
-meta{
+#meta{
   padding-left:0; 
   margin: 0 0 8px;
 

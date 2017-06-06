@@ -81,26 +81,30 @@ section h2{
 	
 }
 
-section div{
 
+.box-movie{
+	width: 250px;
+	max-width: 250px;
+	min-width: 200px;
+	padding: 2px;
+	position: relative;
+	float: left;
 }
 
-section img, #drama img{
-	display: inline-block;
-	float: left;
-	width: 250px;
-	padding: 2px;
+.box-movie img{
 	-webkit-transition: -webkit-transform 0.5s ease;
 	-moz-transition: -moz-transform 0.5s ease;
 	transition: transform 0.5s ease;
-	
+	width:100%;
+	height:100%;
 }
 
-section img:hover{
+.box-movie:hover img{
 	-moz-transform: scale(1.3);
   	-webkit-transform: scale(1.3);
   	transform: scale(1.3);
-	z-index: 9999;
+/*	width: 350px;*/
+	z-index: 99999;
 	border: solid white 4px;
 	padding: 0;
 }
